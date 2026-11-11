@@ -2,6 +2,8 @@
 
 照片宽高各放大4倍，分块处理，输出PNG；输入最多150万像素。
 
+AutoDL.Art：[Real-ESRGAN-Upscale](https://www.autodl.art/i/zw2029181901/autodl-realesrgan/Real-ESRGAN-Upscale)。v1已提交审核，等待平台通过后开放创建实例。
+
 本仓库提供独立应用源码及部署脚本，模型版本固定在 `app.json`。源码仓库不含权重；本次准备保存的AutoDL环境已将模型和独立依赖放入系统盘，模型无需在客户首次运行时下载。
 
 ## 本次镜像准备状态
