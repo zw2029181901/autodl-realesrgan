@@ -9,7 +9,7 @@
 | AutoDL.Art账号 | 200211（金鳞） |
 | 介绍 | 照片宽高各放大4倍，分块处理，输出PNG；输入最多150万像素。 |
 | 服务端口 | 6006 |
-| 启动命令 | bash /root/autodl-realesrgan/start.sh |
+| 本批导出镜像启动命令 | bash /root/autodl-active/run-service.sh |
 | 模型容量 | 约0.067GB；模型及输出预留2GB，依赖另计 |
 | 上游 | https://github.com/xinntao/Real-ESRGAN |
 | 许可 | BSD-3-Clause（Real-ESRGAN）；Apache-2.0（BasicSR网络结构） |
