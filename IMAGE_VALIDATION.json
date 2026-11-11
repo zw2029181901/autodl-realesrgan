@@ -35,7 +35,15 @@
     "output": "/root/autodl-tmp/cloud-evidence/realesrgan-promoted-output.png"
   },
   "autostart": "Configured; same launcher previously verified with U2Net. No additional reboot for this app.",
-  "platform_image_saved": false,
+  "platform_image_saved": true,
+  "image_uuid": "image-ee2e3c811c",
+  "image_name": "autodl-realesrgan-20261111",
+  "image_size_gb": 1.24,
+  "platform_image_status": "ready",
+  "account_image_usage_gb": 8.15,
+  "review_submitted": true,
+  "review_status": "pending",
+  "community_url": "https://www.autodl.art/i/zw2029181901/autodl-realesrgan/Real-ESRGAN-Upscale",
   "restored_image_verified": false,
   "published": false
 }
