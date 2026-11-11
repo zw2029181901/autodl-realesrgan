@@ -1,0 +1,30 @@
+{
+  "id": "06-realesrgan-upscale",
+  "slug": "autodl-realesrgan",
+  "name": "Real-ESRGAN 超分",
+  "description": "照片宽高各放大4倍，分块处理，输出PNG；输入最多150万像素。",
+  "task": "image-upscaling",
+  "requires_gpu": false,
+  "imports": [
+    "torch"
+  ],
+  "model_gb": 0.067,
+  "disk_gb": 2,
+  "gpu": "支持CPU或GPU；推荐GPU，分块256像素。建议8GB内存起测。",
+  "license": "BSD-3-Clause（Real-ESRGAN）；Apache-2.0（BasicSR网络结构）",
+  "source": "https://github.com/xinntao/Real-ESRGAN",
+  "models": {
+    "main": {
+      "kind": "asset",
+      "filename": "RealESRGAN_x4plus.pth",
+      "url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.1.0/RealESRGAN_x4plus.pth",
+      "bytes": 67040989
+    }
+  },
+  "torch": true,
+  "account": {
+    "github": "zw2029181901",
+    "autodl_user": "200211"
+  }
+}
+
