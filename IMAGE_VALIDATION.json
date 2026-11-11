@@ -1,0 +1,41 @@
+{
+  "verified_at": "2026-11-11T23:05:01.162075+08:00",
+  "slug": "autodl-realesrgan",
+  "status": "passed",
+  "system_disk_app": "/root/autodl-active",
+  "hardware": "NVIDIA GeForce RTX 3090",
+  "torch": "2.8.0+cu128",
+  "pip_check": "No broken requirements found.",
+  "lib64_symlink_preserved": true,
+  "logical_directory_bytes": 612493316,
+  "disk_usage": "559640576\t/root/autodl-active",
+  "model": {
+    "path": "/root/autodl-active/models/06-realesrgan-upscale/RealESRGAN_x4plus.pth",
+    "bytes": 67040989,
+    "sha256": "4fa0d38905f75ac06eb49a7951b426670021be3018265fd191d2125df9d682f1"
+  },
+  "http": {
+    "port": 6006,
+    "upload_inference_download": "passed",
+    "input_size": [
+      321,
+      273
+    ],
+    "output_size": [
+      1284,
+      1092
+    ],
+    "elapsed_seconds": 5.34,
+    "tile_size": 256,
+    "comparison_to_untiled_model": {
+      "mean_absolute_channel_error": 0.05803940072655678,
+      "seam_mean_absolute_channel_error": 0.38878366351127625,
+      "max_absolute_channel_error": 26.0
+    },
+    "output": "/root/autodl-tmp/cloud-evidence/realesrgan-promoted-output.png"
+  },
+  "autostart": "Configured; same launcher previously verified with U2Net. No additional reboot for this app.",
+  "platform_image_saved": false,
+  "restored_image_verified": false,
+  "published": false
+}
